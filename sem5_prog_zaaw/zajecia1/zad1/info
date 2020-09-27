@@ -1,0 +1,24 @@
+Projekt posiadać będzie dwie dodatkowe klasy Osoba oraz Adres. 
+Klasa Osoba odpowieadać będzie za przechowywanie oraz edycje danych czysto użytkowników oraz posiadać będzie odniesienie do klasy Adres.
+Klasa Adres odpowiedzialna natomiast będzie za dane adresowe użytkowników.
+
+Interfejsem będzie konsola.
+Przy starcie programu do wybou będą 2 opcje(Przeglądaj, Dodaj):
+    -Przeglądaj - opcja odpowiedzialna za przeglądanie rejestru, po wyszukaniu danej osoby możliwa będzie jej edycja(włącznie z usunięciem danych)
+    -Dodaj - opcja odpowiedzialna za wprowadzanie danych nowych osób do rejestru
+    -Powrot do menu
+
+Program będzie serializowany binarnie w celu zachwoania danych do przyszłych użyć
+
+Opis klas:
+    Osoba
+        Atrybuty
+            Imie(string), Nazwiso(string), Wiek(int), Płeć(string), DaneAdresowe(klasa Adres)
+        Metody
+            Dodaj, Edytuj, Usun, Wyswietl
+    
+    Adres
+        Atrybuty
+            KodPocztowy(string), Miasto(string), Ulica(string), NrDomu(strign), NrMieszkania(int)
+        Metody
+            Ddoaj, Edytuj, Usun, Wyswietl, SprawdzAdres
