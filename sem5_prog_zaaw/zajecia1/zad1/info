@@ -15,10 +15,10 @@ Opis klas:
         Atrybuty
             Imie(string), Nazwiso(string), Wiek(int), Płeć(string), DaneAdresowe(klasa Adres)
         Metody
-            Dodaj, Edytuj, Usun, Wyswietl
+            Edytuj, Wyswietl
     
     Adres
         Atrybuty
             KodPocztowy(string), Miasto(string), Ulica(string), NrDomu(strign), NrMieszkania(int)
         Metody
-            Ddoaj, Edytuj, Usun, Wyswietl, SprawdzAdres
+            Edytuj, Wyswietl, SprawdzAdres
